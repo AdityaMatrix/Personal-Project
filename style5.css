@@ -1,0 +1,28 @@
+/* Define the animation for the header */
+header {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+  
+  /* Define keyframes for the fadeIn animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply a hover animation to the links */
+  a {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    transform: scale(1.1);
+  }
+  
